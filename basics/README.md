@@ -150,6 +150,127 @@ React applications are commonly built using modern tools such as Vite, which pro
 
 ---
 
+# React Project Structure (Overview)
+
+Understanding the project structure is important for working efficiently with React applications. A well-organized structure improves readability, scalability, and maintainability.
+
+Below is a standard structure commonly used in React applications (especially with Vite):
+
+```id="ygm2ru"
+project-root/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.jsx
+│   ├── main.jsx
+│
+├── index.html
+├── package.json
+├── vite.config.js
+```
+
+Note: In larger or structured projects, additional folders may be present inside `src` (such as for logic, state handling, routing, or API interactions). These are used to organize code by responsibility and improve scalability.
+
+---
+
+## Root Level Files
+
+### index.html
+
+* The single HTML file used in the application
+* Contains a root `<div>` where the React app is mounted
+* React injects the UI into this root element
+
+---
+
+### package.json
+
+* Manages project dependencies
+* Contains scripts (development, build, etc.)
+* Stores metadata about the project
+
+---
+
+### vite.config.js
+
+* Configuration file for Vite
+* Used to customize build settings and plugins
+
+---
+
+## Public Folder
+
+### public/
+
+* Stores static assets
+* Files are served directly without processing
+* Suitable for:
+
+  * Images
+  * Icons
+  * Static files
+
+---
+
+## Source Folder (src)
+
+The `src` folder is the core of the React application.
+
+---
+
+### main.jsx
+
+* Entry point of the React application
+* Connects React with the DOM
+* Renders the main App component into the root element
+
+---
+
+### App.jsx
+
+* Root component of the application
+* Acts as the main container for all other components
+* Defines overall layout and structure
+
+---
+
+### components/
+
+* Contains reusable UI components
+* Each component represents a part of the UI
+* Promotes modular and maintainable code
+
+---
+
+### assets/
+
+* Stores images, styles, and resources used inside components
+* These files are processed by the build system
+
+---
+
+## How React Application Works
+
+1. The browser loads `index.html`
+2. `main.jsx` initializes the React application
+3. React renders the `App` component
+4. The UI is built using components
+5. Updates happen efficiently without full page reload
+
+---
+
+## Importance of Proper Structure
+
+* Improves code organization
+* Makes debugging easier
+* Helps scale applications
+* Encourages reusable components
+* Follows industry standards
+
+---
+
 # Conclusion
 
-A strong understanding of the above JavaScript concepts is sufficient to begin learning React effectively. Mastering these fundamentals will make it easier to understand advanced React concepts and build scalable applications.
+A strong understanding of the listed JavaScript concepts is sufficient to begin learning React effectively. Mastering these fundamentals makes it easier to understand advanced concepts and build scalable applications.
