@@ -1,4 +1,4 @@
-# ⚛️ React.js Mastery Repository
+## React.js Mastery Repository
 
 A complete, structured, and in-depth journey into React.js — covering everything from fundamentals to advanced concepts with practical implementations and real-world examples.
 
@@ -19,7 +19,7 @@ It is structured in a way that progressively builds knowledge from the ground up
 
 ---
 
-## 🧠 What This Repository Covers
+## What This Repository Covers
 
 This repository includes a wide range of topics such as:
 
@@ -67,7 +67,7 @@ This repository follows a few core principles:
 
 ---
 
-## 📈 Learning Approach
+## Learning Approach
 
 Each section is designed to:
 
