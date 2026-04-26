@@ -90,7 +90,7 @@ Each section is designed to:
 
 ## Contribution
 
-This is a personal learning repository, but suggestions, improvements, and discussions are always welcome.
+This is a personal learning repository, but suggestions, improvements, and discussions are always welcome .
 
 ---
 
